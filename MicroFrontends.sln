@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroFrontends.Shell", "MicroFrontends.Shell\MicroFrontends.Shell.csproj", "{107D970A-0232-4EAA-8CD6-CE3E9AEBF618}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactMicroFrontend", "ReactMicroFrontend\ReactMicroFrontend.csproj", "{3DCE0E99-C572-4077-A00A-2E46DCF5BDCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{107D970A-0232-4EAA-8CD6-CE3E9AEBF618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107D970A-0232-4EAA-8CD6-CE3E9AEBF618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107D970A-0232-4EAA-8CD6-CE3E9AEBF618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107D970A-0232-4EAA-8CD6-CE3E9AEBF618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCE0E99-C572-4077-A00A-2E46DCF5BDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCE0E99-C572-4077-A00A-2E46DCF5BDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCE0E99-C572-4077-A00A-2E46DCF5BDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCE0E99-C572-4077-A00A-2E46DCF5BDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3B9B984-9782-4FBF-B6C2-5708C3732BB1}
+	EndGlobalSection
+EndGlobal

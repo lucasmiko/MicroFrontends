@@ -1,0 +1,24 @@
+{
+  "name": "reactmicrofrontend",
+  "version": "1.0.0",
+  "description": "MicroFrontend Project Using Blazor WASM",
+  "main": "wwwroot/dist/app.js",
+  "source": "src/index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.js",
+    "clean": "del-cli wwwroot/dist/* node_modules"
+  },
+  "author": "Lucas Mikó",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
